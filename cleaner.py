@@ -20,6 +20,16 @@ def save_csv(df: pd.DataFrame, file_name: str) -> None:
 def merge_files(*dfs: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(dfs)
 
+# Takes a column in a data frame and turns it into a list 
+def to_list(df: pd.DataFrame, column:str, list:list) -> None:
+    for item in df[column]:
+        if item not in list:
+            list.append(item)
+
+# strips the white spaces from a selected column in a data frame
+def ws_gone(df: pd.DataFrame, column: str) -> None:
+    df[column] = df[column].str.strip()
+
 # Changes the column name to lowercase. Takes in a data frame.
 def col_low(df: pd.DataFrame) -> pd.DataFrame:
     df.columns = df.columns.str.lower()
