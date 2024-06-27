@@ -3,7 +3,7 @@
 ## Overview
 The Workout Recommender System is an interactive tool designed to generate personalized workout routines based on user preferences. Users can specify force, equipment type, targeted body parts, and their goals. The system then provides workouts for the specifications, complete with exercise descriptions, sets, reps, rest, and weight type.
 
-[Trello](https://trello.com/b/QE9VqWfc/workout-recommender-week-9-final-project)
+[Trello](https://trello.com/b/QE9VqWfc/workout-recommender-week-9-final-project) [Tableau](https://public.tableau.com/views/Data_Visuals/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## Features
 - **User Input Handling:** Collects user preferences for muscle group, equipment type, targeted body parts, force, and goals.
