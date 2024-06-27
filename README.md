@@ -1,18 +1,18 @@
 # Workout Recommender System
 
 ## Overview
-The Workout Recommender System is an interactive tool designed to generate personalized workout routines based on user preferences. Users can specify workout duration, equipment type, targeted body parts, and the desired length of their workout plan. The system then provides a tailored workout routine, complete with exercise descriptions, sets, reps, and video links.
+The Workout Recommender System is an interactive tool designed to generate personalized workout routines based on user preferences. Users can specify force, equipment type, targeted body parts, and their goals. The system then provides workouts for the specifications, complete with exercise descriptions, sets, reps, rest, and weight type.
 
-[Trello](https://trello.com/b/QE9VqWfc/workout-recommender-week-9-final-project)
+[Trello](https://trello.com/b/QE9VqWfc/workout-recommender-week-9-final-project) [Tableau](https://public.tableau.com/views/Data_Visuals/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) [Presentation](https://docs.google.com/presentation/d/1RnzmHiSArgedA_daeIxIVtM7FNTLQGCjU2grOmu5NoA/edit?usp=sharing)
 
 ## Features
-- **User Input Handling:** Collects user preferences for workout duration, equipment type, and targeted body parts.
+- **User Input Handling:** Collects user preferences for muscle group, equipment type, targeted body parts, force, and goals.
 - **Recommendation Algorithm:** Filters and selects appropriate exercises based on user inputs.
-- **Routine Generation:** Creates workout routines with detailed exercise descriptions and video links.
-- **Long-term Plan Creation:** Generates weekly or monthly workout plans.
+- **Routine Generation:** Creates workout routines with detailed exercise descriptions.
+- **Long-term Plan Creation:(pending)** Generates weekly or monthly workout plans.
 - **Data Integration:** Merges and cleans data from multiple sources.
 - **API Integration:** Retrieves additional exercises from external APIs.
-- **Interactive Dashboard:** Uses Tableau to create a user-friendly interface for input and visualization.
+- **Interactive Dashboard:(pending)** Uses Tableau to create a user-friendly interface for input and visualization.
 
 ## Project Structure
 1. **Data Collection and Preparation**
