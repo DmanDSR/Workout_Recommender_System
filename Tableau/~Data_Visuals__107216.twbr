@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='Data_Visuals' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='all_workouts_fixed' inline='true' name='federated.03gouvt0a018tq1bz2e3r1dr44gl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='all_workouts_fixed' name='textscan.19xpmty0ejlm19105ofp80hurfp7'>
+            <connection class='textscan' directory='C:/Users/dylan/OneDrive/Documents/Dylans Doc&apos;s/Dylan&apos;s courses/2024 Courses/IronHack/Week 9/Final Project/Workout_Recommender_System' filename='all_workouts_fixed.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.19xpmty0ejlm19105ofp80hurfp7' name='all_workouts_fixed.csv' table='[all_workouts_fixed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='body_group' ordinal='1' />
+            <column datatype='string' name='force' ordinal='2' />
+            <column datatype='string' name='muscle_group' ordinal='3' />
+            <column datatype='string' name='equipment' ordinal='4' />
+            <column datatype='string' name='description' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.19xpmty0ejlm19105ofp80hurfp7' name='all_workouts_fixed.csv' table='[all_workouts_fixed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='body_group' ordinal='1' />
+            <column datatype='string' name='force' ordinal='2' />
+            <column datatype='string' name='muscle_group' ordinal='3' />
+            <column datatype='string' name='equipment' ordinal='4' />
+            <column datatype='string' name='description' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>body_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[body_group]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>body_group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>force</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[force]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>force</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muscle_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[muscle_group]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>muscle_group</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>equipment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[equipment]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>equipment</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[all_workouts_fixed.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='all_workouts_fixed.csv' datatype='table' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+      <column caption='Body Group' datatype='string' name='[body_group]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Equipment' datatype='string' name='[equipment]' role='dimension' type='nominal' />
+      <column caption='Force' datatype='string' name='[force]' role='dimension' type='nominal' />
+      <column caption='Muscle Group' datatype='string' name='[muscle_group]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column-instance column='[body_group]' derivation='None' name='[none:body_group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[equipment]' derivation='None' name='[none:equipment:nk]' pivot='key' type='nominal' />
+      <column-instance column='[force]' derivation='None' name='[none:force:nk]' pivot='key' type='nominal' />
+      <column-instance column='[muscle_group]' derivation='None' name='[none:muscle_group:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Body Group)' hidden='true' name='[Action (Body Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[body_group]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Equipment)' hidden='true' name='[Action (Equipment)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[equipment]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Force)' hidden='true' name='[Action (Force)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[force]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Muscle Group)' hidden='true' name='[Action (Muscle Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[muscle_group]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/dylan/AppData/Local/Temp/TableauTemp/#TableauTemp_0s2v1u518wfekx19xe2g81iripov.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3687</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>body_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[body_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>body_group</remote-alias>
+              <ordinal>1</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>force</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[force]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>force</remote-alias>
+              <ordinal>2</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>muscle_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[muscle_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>muscle_group</remote-alias>
+              <ordinal>3</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>equipment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[equipment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>equipment</remote-alias>
+              <ordinal>4</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>description</remote-alias>
+              <ordinal>5</ordinal>
+              <family>all_workouts_fixed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1564</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:body_group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cardio&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Upper Body&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lower Body&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Core&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:muscle_group:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Hips&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abs&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cardio&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Obliques&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Legs&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chest&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Arms&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Forearms&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Shoulders&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lower Back&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Glutes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Back&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Neck&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Calves&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:equipment:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Foam Roll&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Band&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TRX&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cable&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Machine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gym mat&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Dumbbell&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Swiss Ball&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Barbell&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Yoga&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Pull-up bar&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;E-Z Curl Bar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Medicine Ball&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Stretches&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SZ-Bar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Incline bench&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Exercise Ball&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bench&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Plate&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kettlebell&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bodyweight&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:force:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hold&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Push&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pull&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='all_workouts_fixed.csv' id='all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996'>
+            <properties context=''>
+              <relation connection='textscan.19xpmty0ejlm19105ofp80hurfp7' name='all_workouts_fixed.csv' table='[all_workouts_fixed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='string' name='body_group' ordinal='1' />
+                  <column datatype='string' name='force' ordinal='2' />
+                  <column datatype='string' name='muscle_group' ordinal='3' />
+                  <column datatype='string' name='equipment' ordinal='4' />
+                  <column datatype='string' name='description' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Muscle Group' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_AE4CFC701E1845CD900A08B910E85F51]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Body Group' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_2DC4F9A4378E4E7E97775C879A321C1D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Equipment' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_2D8FFC7564784A2A8A72DA3155D30219]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Force' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Body Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Body Group Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all_workouts_fixed' name='federated.03gouvt0a018tq1bz2e3r1dr44gl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03gouvt0a018tq1bz2e3r1dr44gl'>
+            <_.fcp.ObjectModelTableType.true...column caption='all_workouts_fixed.csv' datatype='table' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' pivot='key' type='quantitative' />
+            <column caption='Body Group' datatype='string' name='[body_group]' role='dimension' type='nominal' />
+            <column-instance column='[body_group]' derivation='Count' name='[cnt:body_group:qk]' pivot='key' type='quantitative' />
+            <column caption='Equipment' datatype='string' name='[equipment]' role='dimension' type='nominal' />
+            <column caption='Force' datatype='string' name='[force]' role='dimension' type='nominal' />
+            <column caption='Muscle Group' datatype='string' name='[muscle_group]' role='dimension' type='nominal' />
+            <column-instance column='[body_group]' derivation='None' name='[none:body_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[equipment]' derivation='None' name='[none:equipment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[force]' derivation='None' name='[none:force:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='None' name='[none:muscle_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='Count' name='[pcto:cnt:muscle_group:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.false...column caption='all_workouts_fixed.csv' datatype='integer' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]'>
+            <groupfilter function='level-members' level='[equipment]' user:ui-action-filter='[Action3_2DC4F9A4378E4E7E97775C879A321C1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]'>
+            <groupfilter function='level-members' level='[force]' user:ui-action-filter='[Action4_2D8FFC7564784A2A8A72DA3155D30219]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:body_group:nk]' />
+              <groupfilter function='member' level='[none:body_group:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' direction='DESC' using='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' />
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]'>
+            <groupfilter function='level-members' level='[none:equipment:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]'>
+            <groupfilter function='level-members' level='[none:force:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]'>
+            <groupfilter function='level-members' level='[none:muscle_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' value='142' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:body_group:qk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[pcto:cnt:muscle_group:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:body_group:qk]</rows>
+        <cols>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]</cols>
+      </table>
+      <simple-id uuid='{50B6EA98-434E-4C33-A3D7-A9BE71070781}' />
+    </worksheet>
+    <worksheet name='Equipment'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Equipment Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all_workouts_fixed' name='federated.03gouvt0a018tq1bz2e3r1dr44gl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03gouvt0a018tq1bz2e3r1dr44gl'>
+            <_.fcp.ObjectModelTableType.true...column caption='all_workouts_fixed.csv' datatype='table' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' pivot='key' type='quantitative' />
+            <column caption='Body Group' datatype='string' name='[body_group]' role='dimension' type='nominal' />
+            <column-instance column='[equipment]' derivation='Count' name='[cnt:equipment:qk]' pivot='key' type='quantitative' />
+            <column caption='Equipment' datatype='string' name='[equipment]' role='dimension' type='nominal' />
+            <column caption='Force' datatype='string' name='[force]' role='dimension' type='nominal' />
+            <column caption='Muscle Group' datatype='string' name='[muscle_group]' role='dimension' type='nominal' />
+            <column-instance column='[body_group]' derivation='None' name='[none:body_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[equipment]' derivation='None' name='[none:equipment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[force]' derivation='None' name='[none:force:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='None' name='[none:muscle_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[equipment]' derivation='Count' name='[pcto:cnt:equipment:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.false...column caption='all_workouts_fixed.csv' datatype='integer' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]'>
+            <groupfilter function='level-members' level='[body_group]' user:ui-action-filter='[Action2_AE4CFC701E1845CD900A08B910E85F51]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]'>
+            <groupfilter function='level-members' level='[force]' user:ui-action-filter='[Action4_2D8FFC7564784A2A8A72DA3155D30219]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
+            <groupfilter function='level-members' level='[none:body_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:equipment:nk]' />
+              <groupfilter function='member' level='[none:equipment:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]' direction='DESC' using='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' />
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]'>
+            <groupfilter function='level-members' level='[none:force:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]'>
+            <groupfilter function='level-members' level='[none:muscle_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:equipment:qk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[pcto:cnt:equipment:qk]' />
+              <color column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='6' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:equipment:qk]</rows>
+        <cols>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]</cols>
+      </table>
+      <simple-id uuid='{EFCB1E86-3BC0-4113-A0ED-B050A88F605A}' />
+    </worksheet>
+    <worksheet name='Force'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Force Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all_workouts_fixed' name='federated.03gouvt0a018tq1bz2e3r1dr44gl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03gouvt0a018tq1bz2e3r1dr44gl'>
+            <_.fcp.ObjectModelTableType.true...column caption='all_workouts_fixed.csv' datatype='table' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' pivot='key' type='quantitative' />
+            <column caption='Body Group' datatype='string' name='[body_group]' role='dimension' type='nominal' />
+            <column-instance column='[force]' derivation='Count' name='[cnt:force:qk]' pivot='key' type='quantitative' />
+            <column caption='Equipment' datatype='string' name='[equipment]' role='dimension' type='nominal' />
+            <column caption='Force' datatype='string' name='[force]' role='dimension' type='nominal' />
+            <column caption='Muscle Group' datatype='string' name='[muscle_group]' role='dimension' type='nominal' />
+            <column-instance column='[body_group]' derivation='None' name='[none:body_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[equipment]' derivation='None' name='[none:equipment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[force]' derivation='None' name='[none:force:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='None' name='[none:muscle_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[force]' derivation='Count' name='[pcto:cnt:force:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.false...column caption='all_workouts_fixed.csv' datatype='integer' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]'>
+            <groupfilter function='level-members' level='[body_group]' user:ui-action-filter='[Action2_AE4CFC701E1845CD900A08B910E85F51]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]'>
+            <groupfilter function='level-members' level='[equipment]' user:ui-action-filter='[Action3_2DC4F9A4378E4E7E97775C879A321C1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
+            <groupfilter function='level-members' level='[none:body_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]'>
+            <groupfilter function='level-members' level='[none:equipment:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:force:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:force:nk]' member='&quot;Unknown&quot;' />
+                <groupfilter function='member' level='[none:force:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' direction='DESC' using='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' />
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]'>
+            <groupfilter function='level-members' level='[none:muscle_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' value='97' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:force:qk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[pcto:cnt:force:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:force:qk]</rows>
+        <cols>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]</cols>
+      </table>
+      <simple-id uuid='{D5C05D22-8E56-4A4D-A176-FB834F85DE55}' />
+    </worksheet>
+    <worksheet name='Muscle Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Muscle Group Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all_workouts_fixed' name='federated.03gouvt0a018tq1bz2e3r1dr44gl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03gouvt0a018tq1bz2e3r1dr44gl'>
+            <_.fcp.ObjectModelTableType.true...column caption='all_workouts_fixed.csv' datatype='table' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' pivot='key' type='quantitative' />
+            <column caption='Body Group' datatype='string' name='[body_group]' role='dimension' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='Count' name='[cnt:muscle_group:qk]' pivot='key' type='quantitative' />
+            <column caption='Equipment' datatype='string' name='[equipment]' role='dimension' type='nominal' />
+            <column caption='Force' datatype='string' name='[force]' role='dimension' type='nominal' />
+            <column caption='Muscle Group' datatype='string' name='[muscle_group]' role='dimension' type='nominal' />
+            <column-instance column='[body_group]' derivation='None' name='[none:body_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[equipment]' derivation='None' name='[none:equipment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[force]' derivation='None' name='[none:force:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='None' name='[none:muscle_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[muscle_group]' derivation='Count' name='[pcto:cnt:muscle_group:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.false...column caption='all_workouts_fixed.csv' datatype='integer' name='[__tableau_internal_object_id__].[all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]'>
+            <groupfilter function='level-members' level='[body_group]' user:ui-action-filter='[Action2_AE4CFC701E1845CD900A08B910E85F51]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]'>
+            <groupfilter function='level-members' level='[equipment]' user:ui-action-filter='[Action3_2DC4F9A4378E4E7E97775C879A321C1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]'>
+            <groupfilter function='level-members' level='[force]' user:ui-action-filter='[Action4_2D8FFC7564784A2A8A72DA3155D30219]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
+            <groupfilter function='level-members' level='[none:body_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]'>
+            <groupfilter function='level-members' level='[none:equipment:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]'>
+            <groupfilter function='level-members' level='[none:force:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:muscle_group:nk]' />
+              <groupfilter function='member' level='[none:muscle_group:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' direction='DESC' using='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[__tableau_internal_object_id__].[cnt:all_workouts_fixed.csv_72F392FC465F4689B130CE6718516996:qk]' />
+          <slices>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Force)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Body Group)]</column>
+            <column>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Equipment)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' value='41' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' value='72' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:muscle_group:qk]' />
+              <text column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[pcto:cnt:muscle_group:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[cnt:muscle_group:qk]</rows>
+        <cols>[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]</cols>
+      </table>
+      <simple-id uuid='{EF2A6387-0A16-47EA-B3B0-44FEADE2EEE8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98554' id='7' param='horz' type-v2='layout-flow' w='49643' x='50000' y='723'>
+            <zone h='98554' id='5' type-v2='layout-basic' w='42513' x='50000' y='723'>
+              <zone h='49277' id='13' name='Force' w='42513' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49277' id='11' name='Equipment' w='42513' x='50000' y='723'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98554' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='7130' x='92513' y='723'>
+              <zone h='12115' id='8' name='Body Group' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' type-v2='color' w='7130' x='92513' y='723'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='34719' id='10' name='Muscle Group' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' type-v2='color' w='7130' x='92513' y='12838'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='39605' id='12' name='Equipment' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]' type-v2='color' w='7130' x='92513' y='47557'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12115' id='14' name='Force' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' type-v2='color' w='7130' x='92513' y='87162'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='49277' id='9' name='Muscle Group' w='49643' x='357' y='723'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49277' id='3' name='Body Group' w='49643' x='357' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98554' id='17' param='vert' type-v2='layout-flow' w='99286' x='357' y='723'>
+                <zone fixed-size='280' h='49277' id='9' is-fixed='true' name='Muscle Group' w='49643' x='357' y='723'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='34719' id='10' name='Muscle Group' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' type-v2='color' w='7130' x='92513' y='12838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49277' id='11' is-fixed='true' name='Equipment' w='42513' x='50000' y='723'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='39605' id='12' name='Equipment' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]' type-v2='color' w='7130' x='92513' y='47557'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49277' id='3' is-fixed='true' name='Body Group' w='49643' x='357' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12115' id='8' name='Body Group' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' type-v2='color' w='7130' x='92513' y='723'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49277' id='13' is-fixed='true' name='Force' w='42513' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12115' id='14' name='Force' pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' type-v2='color' w='7130' x='92513' y='87162'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{73A67976-3913-43F5-B253-46865D47FC66}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Body Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{33435314-5FEC-49AE-A04D-6715C1FF6AEA}' />
+    </window>
+    <window class='worksheet' name='Muscle Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:muscle_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{774BD97F-296C-41BB-A354-007668D4482D}' />
+    </window>
+    <window class='worksheet' name='Equipment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:equipment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16BADFF9-B194-4DC2-A40E-69CB94FC5DBF}' />
+    </window>
+    <window class='worksheet' name='Force'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:force:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{41EA14E3-7654-4BFE-84D1-D503EE6255B1}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Body Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Equipment'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Force'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Muscle Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{6E6A70A0-316F-4094-BB6E-32A54C904F03}' />
+    </window>
+  </windows>
+</workbook>
