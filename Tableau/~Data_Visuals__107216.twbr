@@ -534,7 +534,7 @@
             <groupfilter function='level-members' level='[force]' user:ui-action-filter='[Action4_2D8FFC7564784A2A8A72DA3155D30219]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
-            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Abs&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
             <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
@@ -633,7 +633,7 @@
             <groupfilter function='level-members' level='[force]' user:ui-action-filter='[Action4_2D8FFC7564784A2A8A72DA3155D30219]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
-            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Abs&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
             <groupfilter function='level-members' level='[none:body_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -728,7 +728,7 @@
             <groupfilter function='level-members' level='[equipment]' user:ui-action-filter='[Action3_2DC4F9A4378E4E7E97775C879A321C1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[Action (Muscle Group)]'>
-            <groupfilter function='member' level='[muscle_group]' member='&quot;Chest&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[muscle_group]' member='&quot;Abs&quot;' user:ui-action-filter='[Action1_6CE9A9E93B3E4B64ACED6D6C657F05A1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.03gouvt0a018tq1bz2e3r1dr44gl].[none:body_group:nk]'>
             <groupfilter function='level-members' level='[none:body_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
