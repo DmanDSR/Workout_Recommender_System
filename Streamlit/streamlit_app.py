@@ -8,7 +8,7 @@ from pathlib import Path
 csv_file_path = 'all_workouts_fixed.csv'
 # obj = Path(csv_file_path)
 # if obj.exists:
-all_workouts_fixed = pd.read_csv(csv_file_path)
+all_workouts_fixed = pd.read_csv(all_workouts_fixed.csv)
 # else:
 #     st.error("CSV file not found. Please check the path.")
 
