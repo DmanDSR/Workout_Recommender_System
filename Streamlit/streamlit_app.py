@@ -39,11 +39,12 @@ def fill_nan(df: pd.DataFrame, column:str, value:any)-> pd.DataFrame:
 # Apply cleaning functions
 def apply_cleaning(df):
     force_categories = {'Cardio': 'N/A'}
+    df = fill_nan(df, 'force', 'N/A')
     df = to_lower(df, 'muscle_group')
     df = to_lower(df, 'body_group')
     df = to_lower(df, 'force')
     df = to_lower(df, 'equipment')
-    df = fill_nan(df, 'force', 'N/A')
+    
     return df
 
 all_workouts_fixed = apply_cleaning(all_workouts_fixed)
