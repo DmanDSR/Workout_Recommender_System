@@ -5,7 +5,10 @@ from pathlib import Path
 
 # os.path.exists(csv_file_path)
 # Load the dataset
-csv_file_path = 'all_workouts_fixed.csv'
+# Workout_Recommender_System/Streamlit/all_workouts_fixed.csv
+
+
+csv_file_path = 'Workout_Recommender_System/Streamlit/all_workouts_fixed.csv'
 # obj = Path(csv_file_path)
 # if obj.exists:
 all_workouts_fixed = pd.read_csv(all_workouts_fixed.csv)
