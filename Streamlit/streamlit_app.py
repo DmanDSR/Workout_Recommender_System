@@ -6,11 +6,11 @@ from pathlib import Path
 # os.path.exists(csv_file_path)
 # Load the dataset
 csv_file_path = 'all_workouts_fixed.csv'
-obj = Path(csv_file_path)
-if obj.exists:
-    all_workouts_fixed = pd.read_csv(csv_file_path)
-else:
-    st.error("CSV file not found. Please check the path.")
+# obj = Path(csv_file_path)
+# if obj.exists:
+all_workouts_fixed = pd.read_csv(csv_file_path)
+# else:
+#     st.error("CSV file not found. Please check the path.")
 
 def to_lower(df: pd.DataFrame, column: str) -> pd.DataFrame:
     if column in df.columns:
