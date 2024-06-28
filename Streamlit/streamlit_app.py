@@ -8,10 +8,10 @@ from pathlib import Path
 # Workout_Recommender_System/Streamlit/all_workouts_fixed.csv
 
 
-csv_file_path = 'Workout_Recommender_System/Streamlit/all_workouts_fixed.csv'
+csv_file_path = 'https://github.com/DmanDSR/Workout_Recommender_System/blob/main/Streamlit/all_workouts_fixed.csv'
 # obj = Path(csv_file_path)
 # if obj.exists:
-all_workouts_fixed = pd.read_csv(all_workouts_fixed.csv)
+all_workouts_fixed = pd.read_csv(csv_file_path)
 # else:
 #     st.error("CSV file not found. Please check the path.")
 
